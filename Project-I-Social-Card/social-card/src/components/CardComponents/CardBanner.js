@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardBanner = () => {
     return (
-        <backgroundImg src="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png" />
+        <img class='background' src="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png" />
     )
 }
 

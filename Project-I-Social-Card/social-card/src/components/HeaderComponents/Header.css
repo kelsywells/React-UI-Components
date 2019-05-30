@@ -1,5 +1,32 @@
 /* All styles for your header Components live here */
 
+.thumbnail {
+    width: 3%;
+    height: 3%;
+    margin-right: 2%;
+}
+
+.HeaderTitle {
+    display: flex;
+    justify-content: flex-start;
+    height: 8%;
+    margin-left: 5%;
+    width: 30%;
+
+}
 
 
+.LambdaHandle {
+    height: 3%;
+    margin-top: 4.5%;
+    margin-left: 2%;
+}
 
+.HeaderContent {
+    width: 50%;
+}
+
+.background {
+    width: 50%;
+    height: 50%;
+}

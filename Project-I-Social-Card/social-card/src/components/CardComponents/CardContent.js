@@ -8,7 +8,7 @@ const CardContent = () => {
                 Get Started with React
             </h3>
             <p>
-                React makes it painless to createa interactive UIs. Design simple views for each state in your application.
+                React makes it painless to create interactive UIs. Design simple views for each state in your application.
             </p>
         </span>
     )

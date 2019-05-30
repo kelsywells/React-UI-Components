@@ -7,9 +7,9 @@ import './Header.css';
 const HeaderTitle = () => {
     return (
         <div className= "HeaderTitle">
-            <h1>Lambda School</h1>
-            <a href="https://go.lambdaschool.com">@LambdaSchool</a>
-            <input type="datetime-local" />
+            <h3>Lambda School</h3>
+            {/* <span className= 'time-stamp'>{time.format('MMM Do ')}</span> */}
+            <a class= 'LambdaHandle' href="https://go.lambdaschool.com">@LambdaSchool</a>
         </div>
     );
 }
