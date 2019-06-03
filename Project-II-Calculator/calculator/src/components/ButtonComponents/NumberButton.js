@@ -6,7 +6,7 @@ import './Button.css';
 //   - Your button button should also be able to accept dynamic props `buttonStyle` for styling
 
 function NumberButton(props) {
-    <button className={props.NumberBtns.buttonStyle}>{props.NumberBtns.text}</button>
+    <div className= {props.NumberBtns.buttonStyle}>{props.NumberBtns.text}</div>
 }
 
 
