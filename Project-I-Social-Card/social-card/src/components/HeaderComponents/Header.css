@@ -1,29 +1,48 @@
 /* All styles for your header Components live here */
 
-.thumbnail {
-    width: 3%;
-    height: 3%;
-    margin-right: 2%;
-}
+ .HeaderTitle {
+    display: flex;
+    border: 1px solid green;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 
+} 
 
-.HeaderTitle {
+.HeaderContainer {
     display: flex;
     justify-content: flex-start;
-    height: 8%;
-    margin-left: 5%;
-    width: 30%;
+    border: 1px solid blue;
+    width: 50%;
+}
 
+.thumbnail {
+    width: 10%;
+    height: 10%;
+    margin-right: 2%;
+    border: 1px solid purple;
+}
+
+.Date {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    width: 11%;
+    height: 20%;
+    color: gray;
+    margin-top: 3%;
 }
 
 
 .LambdaHandle {
-    height: 3%;
-    margin-top: 4.5%;
-    margin-left: 2%;
+    height: 22%;
+    margin: 3% 2% 0 2%;
+    /* border: 1px solid salmon; */
+    color: gray;
 }
 
 .HeaderContent {
     width: 50%;
+    border: 1px dashed lawngreen;
 }
 
 .background {
