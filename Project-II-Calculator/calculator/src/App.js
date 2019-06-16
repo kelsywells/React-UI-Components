@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
-import CalculatorDisplay from './components/ButtonComponents/CalculatorDisplay';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
   );
 };
 
-{/* <h3>Welcome to React Calculator</h3> */}
+/* <h3>Welcome to React Calculator</h3> */
 //       <p>
 //         We have given you a starter project. You'll want to build out your
 //         components in their respective files, remove this code and replace it

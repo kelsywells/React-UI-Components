@@ -6,23 +6,25 @@ import './Button.css';
 //   - Your button button should also be able to accept dynamic props `buttonStyle` for styling
 
 function NumberButton(props) {
+    
+    const NumberBtns = [
+        {name: 'one', buttonStyle: 'numBtn', text: '1'},
+        {name: 'two', buttonStyle: 'numBtn', text: '2'},
+        {name: 'three', buttonStyle: 'numBtn', text: '3'},
+        {name: 'four', buttonStyle: 'numBtn', text: '4'},
+        {name: 'five', buttonStyle: 'numBtn', text: '5'},
+        {name: 'six', buttonStyle: 'numBtn', text: '6'},
+        {name: 'seven', buttonStyle: 'numBtn', text: '7'},
+        {name: 'eight', buttonStyle: 'numBtn', text: '8'},
+        {name: 'nine', buttonStyle: 'numBtn', text: '9'}
+    ]
+
     return (
-    <div className= {props.NumberBtns.buttonStyle}>{props.NumberBtns.text}</div>
+    <div className= {props.buttonStyle}>{props.text}</div>
     )
 }
 
 
-const NumberBtns = [
-    {name: 'one', buttonStyle: 'numBtn', text: '1'},
-    {name: 'two', buttonStyle: 'numBtn', text: '2'},
-    {name: 'three', buttonStyle: 'numBtn', text: '3'},
-    {name: 'four', buttonStyle: 'numBtn', text: '4'},
-    {name: 'five', buttonStyle: 'numBtn', text: '5'},
-    {name: 'six', buttonStyle: 'numBtn', text: '6'},
-    {name: 'seven', buttonStyle: 'numBtn', text: '7'},
-    {name: 'eight', buttonStyle: 'numBtn', text: '8'},
-    {name: 'nine', buttonStyle: 'numBtn', text: '9'}
-]
 
 
 export default NumberButton;
