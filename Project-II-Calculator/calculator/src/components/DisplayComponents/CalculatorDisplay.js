@@ -3,9 +3,9 @@ import './Display.css';
 
 // - Create a `<CalculatorDisplay />` component that will be used as the `calculator display`
 
-function CalculatorDisplay(props) {
+const CalculatorDisplay = () => {
     return (
-    <div className = 'total'>0</div>
+    <button className = 'total'>0</button>
     )
 }
 

@@ -5,7 +5,7 @@ import './Button.css';
 //   - Example your component should be able to render a dynamic prop called text:
 //   - Your button button should also be able to accept dynamic props `buttonStyle` for styling
 
-function NumberButton(props) {
+const NumberButton = props => {
     
     const NumberBtns = [
         {name: 'one', buttonStyle: 'numBtn', text: '1'},
@@ -18,9 +18,13 @@ function NumberButton(props) {
         {name: 'eight', buttonStyle: 'numBtn', text: '8'},
         {name: 'nine', buttonStyle: 'numBtn', text: '9'}
     ]
+    console.log('NumberBtns', NumberBtns);
+    //numbers won't show up. trying to figure out how to show them.
 
     return (
-    <div className= {props.buttonStyle}>{props.text}</div>
+    <button className= {`short-btn ${props.className}`}>
+
+    </button>
     )
 }
 

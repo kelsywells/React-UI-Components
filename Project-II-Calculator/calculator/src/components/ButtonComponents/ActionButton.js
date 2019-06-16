@@ -4,14 +4,20 @@ import './Button.css';
 
 //- Create an `<ActionButton />` component that will be used for the `zero` character and the `clear` button.
 
-function ActionButton(props) {
+const ActionButton = props => {
     const ActionBtns = [
-        {name: 'zero', buttonStyle: 'actBtn', text: '0'},
-        {name: 'clear', buttonStyle: 'actBtn', text: 'clear'}
+        {name: 'zero', buttonStyle: 'actBtn', text: "0"},
+        {name: 'clear', buttonStyle: 'actBtn', text: "clear"}
     ]
 
+    console.log('ActionBtns', ActionBtns);
+    console.log('props.text', props.text);
+
     return (
-    <div className= {props.buttonStyle}>{props.text}</div>
+    <button className= {`long-btn ${props.className}`}>
+        {props.text}
+    </button>
+       
     )
 }
 
