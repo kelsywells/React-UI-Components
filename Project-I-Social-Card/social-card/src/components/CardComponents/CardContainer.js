@@ -5,7 +5,7 @@ import CardContent from './CardContent';
 
 function CardContainer() {
     return (
-        <div className= "CardContainer" onclick="location.href='https://www.reactjs.org';">
+        <div className= "CardContainer" onClick="location.href='https://www.reactjs.org';">
             <CardBanner />
             <CardContent />
             
